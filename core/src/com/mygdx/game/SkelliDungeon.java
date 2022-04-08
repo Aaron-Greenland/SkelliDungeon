@@ -4,7 +4,7 @@ import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-
+// This class initializes the fonts and the sprite batch that will be used later in the program
 public class SkelliDungeon extends Game {
 
 	public SpriteBatch batch;
@@ -13,6 +13,7 @@ public class SkelliDungeon extends Game {
 	public void create() {
 		batch = new SpriteBatch();
 		font = new BitmapFont(); // use libGDX's default Arial font
+		// setScreen switches the screen to the Main Menu of the game
 		this.setScreen(new MainMenuScreen(this));
 	}
 

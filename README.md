@@ -4,7 +4,7 @@ Software Design project by Aaron Greenland and Cameron King.
 
 # General Information
 
-SkelliDungeon is a pc game written in C++ utilizing the libGDX game development framework
+SkelliDungeon is a pc game written in C++ utilizing the libGDX game development framework.
 
 # Game Rules
 
